@@ -107,13 +107,36 @@ main {
 
 .whiteshape{
     position: absolute;
-    width: 45%;
     z-index: 1;
 }
 
 .blackshape{
     z-index: 0;
     position: relative;
-    top: 2px;
-    width: 99%;
+}
+
+.grid-games{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(7,70px);
+    grid-template-rows: repeat(6,70px);
+    grid-gap: 18px;
+    left: 28.3%;
+    bottom: 25.5%;
+}
+
+.grid-games button{
+    border-radius: 50%;
+    border: none;
+    background-color: var(--purple-color);
+}
+
+footer{
+    background-color: var(--dark-purple-color);
+    bottom: 60px;
+    position: relative;
+    z-index: -2;
+    height: 200px;
+    width: 100vw;
+    border-radius: 60px 60px 0 0;
 }
