@@ -3,35 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Connect Four Games</title>
 </head>
 <body>
     <header>
         <nav>
-            <button class="headerBtn">MENU</button>
+            <button class="headerBtn heading-xs">MENU</button>
             <img src="asset/logo.png" alt="Logo">
-            <button class="headerBtn">RESTART</button>
+            <button class="headerBtn heading-xs">RESTART</button>
         </nav>
     </header>
     <main>
         <section class="sectionMain">
-            <div>
-                <img src="asset/player-one.svg" alt="">
-                <div>
-                    <h2>PLAYER 1</h2>
-                    <p>12</p>
+            <div class="divSectionMain">
+                <div class="playerIcon">
+                    <img src="asset/player-one.svg" alt="player-one">
+                </div>
+                <div class="playE">
+                    <h2 class="heading-m">PLAYER 1</h2>
+                    <p class="heading-l">12</p>
                 </div>
             </div>
-            <div>
-                <img src="asset/player-two.svg" alt="">
-                <div>
-                    <h2>PLAYER 2</h2>
-                    <p>23</p>
+            
+            <div class="divSectionMain">
+                <div class="playerIcon">
+                    <img src="asset/player-two.svg" alt="player-two">
                 </div>
-            </div>        </section>
+                <div class="playE">
+                    <h2 class="heading-m">PLAYER 2</h2>
+                    <p class="heading-l">23</p>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="app.js"></script>
 </body>
