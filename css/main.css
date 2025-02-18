@@ -105,3 +105,15 @@ main {
 	justify-content: center;
 }
 
+.whiteshape{
+    position: absolute;
+    width: 45%;
+    z-index: 1;
+}
+
+.blackshape{
+    z-index: 0;
+    position: relative;
+    top: 2px;
+    width: 99%;
+}
