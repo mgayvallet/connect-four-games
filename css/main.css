@@ -22,3 +22,35 @@
     --font-size-XS: 16px;
     --font-line-height-XS: 21px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--purple-color);
+    font-family: var(--font-family);
+}
+
+header {
+    width: 50%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.headerBtn{
+    padding: 10px 20px;
+    background-color: var(--dark-purple-color);
+    border-radius: 20px;
+    border: none;
+    color: var(--white-color);
+    font-weight: 700;
+    size: var(--font-size-XS);
+    line-height: var(--font-line-height-XS);
+}
