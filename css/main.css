@@ -11,6 +11,22 @@
 	--font-family: "Space Grotesk", sans-serif;
 }
 
+.btnBlanc{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    border-radius: 20px;
+    border: 3px solid #000000;
+    box-shadow: 0px 10px 0px 0px #000000;
+}
+
+.btnRose{
+    background-color: var(--pink-color);
+    color: var(--white-color);
+    border-radius: 20px;
+    border: 3px solid #000000;
+    box-shadow: 0px 10px 0px 0px #000000;
+}
+
 .heading-xs{
     font-size: 16px;
     line-height: 21px;
@@ -173,7 +189,52 @@ footer {
     justify-content: center;
 } 
 
-.secRules{
+/* PAUSE */
+
+/* .secPause{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #00000080;
+
+}
+
+.secPs{
+    position: relative;
+    padding: 50px 34px;
+    width: 480px;
+    height: 491px;
+    border-radius: 40px;
+    border-width: 3px;
+    background-color: var(--purple-color);    
+    border: 3px solid #000000;
+    box-shadow: 0px 10px 0px 0px #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.h2P{
+    text-align: center;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.btnP{
+    padding: 17px 0px;
+} */
+
+
+/* RULES */
+
+/* .secRules{
     top: 0;
     left: 0;
     bottom: 0;
@@ -252,7 +313,12 @@ footer {
 .logoValider{
     position: absolute;
     top: 77%;
-}
+} */
+
+
+
+
+/* WON */
 
 /* footer{
     background-color: var(--pink-color);
