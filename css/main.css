@@ -173,6 +173,87 @@ footer {
     justify-content: center;
 } 
 
+.secRules{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: var(--purple-color);
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRls{
+    position: relative;
+    padding: 30px 34px;
+    width: 480px;
+    height: 537px;
+    border-radius: 40px;
+    border-width: 3px;
+    background-color: var(--white-color);    
+    border: 3px solid #000000;
+    box-shadow: 0px 10px 0px 0px #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.h2R{
+    text-align: center;
+}
+
+.divObj{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.divObj > h3{
+    color: var(--purple-color);
+}
+
+.divObj > p{
+    color: var(--black-color);
+    opacity: 66%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.42px;
+}
+
+.divHplay{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.divHplay > h3{
+    color: var(--purple-color);
+}
+
+.divHplay > ol{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.divHplay > ol > li{
+    
+    color: var(--black-color);
+    opacity: 66%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.42px;
+}
+
+.logoValider{
+    position: absolute;
+    top: 77%;
+}
+
 /* footer{
     background-color: var(--pink-color);
 } */
