@@ -118,17 +118,23 @@ main {
 .grid-games{
     position: absolute;
     display: grid;
-    grid-template-columns: repeat(7,70px);
-    grid-template-rows: repeat(6,70px);
+    grid-template-columns: repeat(7, 70px);
     grid-gap: 18px;
     left: 28.3%;
     bottom: 25.5%;
 }
 
-.grid-games button{
-    border-radius: 50%;
-    border: none;
+.gamesCols{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.grid{
+    height: 70px;
+    width: 70px;
     background-color: var(--purple-color);
+    border-radius: 50%;
 }
 
 footer {
