@@ -199,7 +199,7 @@ footer {
 
 /* START */
 
-/* .start{
+.start{
     top: 0;
     left: 0;
     bottom: 0;
@@ -252,7 +252,7 @@ footer {
     flex-direction: row;
     align-items: center;
     padding: 13px 20px;
-} */
+} 
 
 /* PAUSE */
 
@@ -299,7 +299,7 @@ footer {
 
 /* RULES */
 
-/* .secRules{
+.secRules{
     top: 0;
     left: 0;
     bottom: 0;
@@ -378,7 +378,7 @@ footer {
 .logoValider{
     position: absolute;
     top: 77%;
-} */
+} 
 
 
 
