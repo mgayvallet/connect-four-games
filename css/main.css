@@ -199,7 +199,7 @@ footer {
 
 /* START */
 
-.start{
+/* .start{
     top: 0;
     left: 0;
     bottom: 0;
@@ -252,11 +252,11 @@ footer {
     flex-direction: row;
     align-items: center;
     padding: 13px 20px;
-}
+} */
 
 /* PAUSE */
 
-/* .secPause{
+.secPause{
     top: 0;
     left: 0;
     bottom: 0;
@@ -294,7 +294,7 @@ footer {
 
 .btnP{
     padding: 17px 0px;
-} */
+} 
 
 
 /* RULES */
