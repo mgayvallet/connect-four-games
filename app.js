@@ -51,3 +51,18 @@ menu.addEventListener('click', () => {
         document.body.removeChild(pauseOverlay);
     });
 });
+
+let scoreJoueur1 = 0;
+let scoreJoueur2 = 0;
+let joueurActuel = "Joueur 1";
+let partieEnCours = true;
+let colonneSelectionnee = null;
+let tempsRestant = 30;
+const grille = [
+  ["", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", ""],
+  ["", "", "", "", "", "", ""]
+];
