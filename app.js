@@ -4,8 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let joueurActuel = "PLAYER 1";
     let partieEnCours = true;
     let tempsRestant = 15;
-    let colonneSelectionnee = 3; // Définir la colonne du milieu par défaut
-    const grille = Array(6).fill().map(() => Array(7).fill(""));
+    let colonneSelectionnee = 3; 
+    const grille = [
+        ["", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", ""]
+    ]
     let timerInterval;
 
     const restartButton = document.querySelector('.headerBtn.heading-xs:last-child');
@@ -65,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2 class="h2P heading-l">PAUSE</h2>
                     <button class="btnBlanc btnP heading-m" id="continuer">CONTINUE GAME</button>
                     <button class="btnBlanc btnP heading-m" id="restart">RESTART</button>
-                    <button class="btnRose btnP heading-m">QUIT GAME</button>
+                    <button class="btnRose btnP heading-m btnQuit" >QUIT GAME</button>
                 </div>
             </section>`;
         document.body.appendChild(pauseOverlay);
@@ -75,6 +82,13 @@ document.addEventListener('DOMContentLoaded', () => {
             startGame();
             pauseOverlay.remove();
         });
+
+        const btnQuit = document.querySelector('.btnQuit')
+        btnQuit.addEventListener('click', () => {
+            start.style.display = 'flex'
+            pauseOverlay.remove();
+
+        })
     });
 
     function startGame() {
